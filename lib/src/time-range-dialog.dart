@@ -747,8 +747,8 @@ class TimeRangePickerState extends State<TimeRangePicker>
     Color inactiveColor;
     switch (ThemeData.estimateBrightnessForColor(themeData.primaryColor)) {
       case Brightness.light:
-        activeColor = Colors.black87;
-        inactiveColor = Colors.black54;
+        activeColor = Colors.white;
+        inactiveColor = Colors.white70;
         break;
       case Brightness.dark:
         activeColor = Colors.white;
